@@ -1,2 +1,2 @@
 # live-streaming-server
-Repositório baseado no vídeo  de transmissão de vídeo ao vivo
+- Repositório cirado para o entendimento básico da construção de um servidor de transmissão ao vivo com NGINX
