@@ -98,25 +98,25 @@ O que o player precisar ter?
 - Múltiplos áudios
 
 ---
+extra: 
 
 O NGINX é um servidor web de código aberto conhecido por sua eficiência e escalabilidade. Embora não seja diretamente relacionado à reprodução de vídeos, o NGINX é frequentemente utilizado em arquiteturas de streaming de vídeo para melhorar o desempenho e a distribuição de conteúdo. Aqui estão algumas maneiras como o NGINX se encaixa no contexto de um sistema de entrega de vídeo:
 
-Servidor Web e Proxy Reverso:
-
-O NGINX atua como um servidor web eficiente, lidando com solicitações HTTP/HTTPS. Ele pode ser configurado como um proxy reverso para distribuir solicitações entre servidores backend. Isso é útil para balanceamento de carga e gerenciamento de tráfego.
-Streaming de Vídeo:
-
 O NGINX pode ser configurado para suportar streaming de vídeo utilizando protocolos como HTTP Live Streaming (HLS), Dynamic Adaptive Streaming over HTTP (DASH), e Smooth Streaming. Ele é capaz de entregar segmentos de vídeo de forma eficiente para os clientes, ajudando na transmissão de conteúdo multimídia.
-CDN (Content Delivery Network):
+
+- CDN (Content Delivery Network):
 
 Muitas vezes, o NGINX é utilizado em servidores de borda em uma CDN para otimizar a entrega de conteúdo estático, incluindo vídeos. Ele pode acelerar a distribuição de conteúdo, reduzindo a latência e melhorando a experiência do usuário final.
-Cache de Conteúdo:
+
+- Cache de Conteúdo:
 
 O NGINX possui recursos de cache que podem ser configurados para armazenar em cache segmentos de vídeo ou até mesmo conteúdo inteiro. Isso reduz a carga nos servidores backend e acelera a entrega de conteúdo para clientes que solicitam o mesmo vídeo repetidamente.
-SSL/TLS Termination:
+
+- SSL/TLS Termination:
 
 O NGINX pode ser configurado para lidar com a terminação SSL/TLS, aliviando a carga dos servidores de aplicativos. Isso é especialmente útil ao fornecer streaming de vídeo seguro (HTTPS).
-Proteção contra DDoS:
+
+- Proteção contra DDoS:
 
 NGINX pode ser configurado para ajudar na mitigação de ataques DDoS, protegendo os servidores contra tráfego malicioso e mantendo a disponibilidade do serviço.
 Proxy de Aplicações:
